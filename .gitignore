@@ -212,3 +212,9 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
+
+# Prevent accidental credential commits
+.env.*
+!.env.example
+!.env_sample
+.streamlit/secrets.toml

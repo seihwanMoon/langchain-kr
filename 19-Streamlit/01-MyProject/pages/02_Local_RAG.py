@@ -92,7 +92,7 @@ def create_chain(retriever, model_name="xionic"):
         llm = ChatOpenAI(
             model_name="xionic-1-72b-20240610",
             base_url="https://sionic.chat/v1/",
-            api_key="934c4bbc-c384-4bea-af82-1450d7f8128d",
+            api_key=os.environ["SIONIC_API_KEY"],
         )
     elif model_name == "ollama":
         # 단계 6: 프롬프트 생성(Create Prompt)

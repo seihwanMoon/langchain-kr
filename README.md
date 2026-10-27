@@ -142,3 +142,7 @@
 
 <br/>
 <p><a href="https://www.buymeacoffee.com/teddylee777"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="teddylee777" /></a></p>
+
+### Sionic API 설정
+
+Xionic 예제를 실행할 때 `SIONIC_API_KEY` 환경변수를 설정하세요. `.env_sample`은 예시값만 포함하며 실제 키를 Git에 커밋하지 마세요.
